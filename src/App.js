@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import './App.css';
-import Sidebar from './components/Sidebar';
-import Header from './components/Header';
-import Home from './components/Home';
-import Dashboard from './components/Dashboard';
-import Consultas from './components/Consultas';
-import Prontuario from './components/Prontuario';
-import Relatorios from './components/Relatorios';
-import Pacientes from './components/Pacientes';
-import Configuracoes from './components/Configuracoes';
-import Comunicados from './components/Comunicados';
+import Sidebar from './components/Sidebar/Sidebar';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Dashboard from './components/Dashboard/Dashboard';
+import Consultas from './components/Consultas/Consultas';
+import Prontuario from './components/Prontuario/Prontuario';
+import Relatorios from './components/Relatorios/Relatorios';
+import Pacientes from './components/Pacientes/Pacientes';
+import Configuracoes from './components/Configuracoes/Configuracoes';
+import Comunicados from './components/Comunicados/Comunicados';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');

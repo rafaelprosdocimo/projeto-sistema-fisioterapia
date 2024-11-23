@@ -87,6 +87,23 @@
     display: flex;
     flex-direction: column;
   }
+
+  .form-group select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group select:focus {
+  border-color: #6a5acd; 
+  box-shadow: 0 0 5px rgba(106, 90, 205, 0.5); 
+  outline: none;
+}
+
   
   .form-group label {
     font-weight: bold;
@@ -108,9 +125,9 @@
   .form-group input[type="text"]:focus,
   .form-group input[type="email"]:focus,
   .form-group input[type="date"]:focus {
-    border-color: #6a5acd; /* Cor de destaque ao focar */
-    box-shadow: 0 0 5px rgba(106, 90, 205, 0.5); /* Sombra ao focar */
-    outline: none; /* Remove o outline padrão */
+    border-color: #6a5acd; 
+    box-shadow: 0 0 5px rgba(106, 90, 205, 0.5); 
+    outline: none; 
   }
   
   .anotacoes-form-container {
@@ -125,43 +142,44 @@
   }
   
   .anotacoes-input {
-    width: 20%; /* Ajuste para um campo menor, como mostrado no print */
+    width: 20%; 
     padding: 10px;
+    margin: 25px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 1em;
     color: #333;
-    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra interna */
-    transition: border-color 0.3s, box-shadow 0.3s; /* Transição suave para focar */
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1); 
+    transition: border-color 0.3s, box-shadow 0.3s; 
    
   }
 
   .anotacoes-input:focus {
-    border-color: #6a5acd; /* Cor de destaque ao focar */
-    box-shadow: 0 0 5px rgba(106, 90, 205, 0.5); /* Adiciona uma sombra ao focar */
-    outline: none; /* Remove o outline padrão */
+    border-color: #6a5acd; 
+    box-shadow: 0 0 5px rgba(106, 90, 205, 0.5); 
+    outline: none; 
   }
   
   .anotacoes-textarea {
-    width: 100%; /* O textarea ocupa toda a largura disponível */
-    height: 350px; /* Altura do campo de texto para anotações */
+    width: 100%; 
+    height: 350px; 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 1em;
     resize: vertical;
-    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra interna */
-    transition: border-color 0.3s, box-shadow 0.3s; /* Transição suave para foco */
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1); 
+    transition: border-color 0.3s, box-shadow 0.3s; 
   }
   
   .anotacoes-textarea:focus {
-    border-color: #6a5acd; /* Cor de destaque ao focar */
-    box-shadow: 0 0 5px rgba(106, 90, 205, 0.5); /* Sombra ao focar */
-    outline: none; /* Remove o outline padrão */
+    border-color: #6a5acd; 
+    box-shadow: 0 0 5px rgba(106, 90, 205, 0.5); 
+    outline: none; 
   }
   
   .submit-button {
-    align-self: flex-end; /* Alinha o botão à direita */
+    align-self: flex-end; 
     background-color: #6a5acd;
     color: #fff;
     border: none;
